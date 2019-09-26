@@ -1,0 +1,22 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "target": "ES2018",
+    "lib": ["es2016", "es2017.object", "es2017.string"],
+    "rootDir": ".",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": ["./node_modules/@types"],
+
+    "outDir": "build"
+  },
+  "exclude": ["cdk.out"],
+  "include": ["src/**/*.ts", "test/**/*.ts"]
+}
