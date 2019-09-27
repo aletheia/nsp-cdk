@@ -1,0 +1,8 @@
+{
+  "editor.snippetSuggestions": "none",
+  "tslint.autoFixOnSave": true,
+  "tslint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
