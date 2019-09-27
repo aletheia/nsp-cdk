@@ -1,5 +1,5 @@
 build/
-error.log
+*error.log
 *.js
 !jest.config.js
 *.d.ts
