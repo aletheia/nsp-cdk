@@ -1,6 +1,7 @@
 {
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
+    "esModuleInterop": true,
     "target": "ES2018",
     "lib": ["es2016", "es2017.object", "es2017.string"],
     "rootDir": ".",
@@ -13,7 +14,7 @@
     "inlineSources": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
-    "typeRoots": ["./node_modules/@types"],
+    //    "typeRoots": ["./node_modules/@types"],
 
     "outDir": "build"
   },

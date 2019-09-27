@@ -21,15 +21,25 @@
     "posttest": "npm run check"
   },
   "dependencies": {
-    "@aws-cdk/core": "^1.9.0"
+    "@aws-cdk/aws-ec2": "^1.9.0",
+    "@aws-cdk/aws-ecs": "^1.9.0",
+    "@aws-cdk/aws-ecs-patterns": "^1.9.0",
+    "@aws-cdk/core": "^1.9.0",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.isstring": "^4.0.1",
+    "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
-    "gts": "^1.1.0",
     "@aws-cdk/assert": "^1.9.0",
     "@types/jest": "^24.0.18",
+    "@types/lodash": "^4.14.139",
+    "@types/lodash.camelcase": "^4.3.6",
+    "@types/lodash.isstring": "^4.0.6",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/node": "^10.0.3",
+    "gts": "^1.1.0",
     "jest": "^24.9.0",
     "ts-jest": "^24.0.2",
-    "typescript": "~3.6.2",
-    "@types/node": "^10.0.3"
+    "typescript": "~3.6.2"
   }
 }
