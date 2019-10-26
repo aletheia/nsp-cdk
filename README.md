@@ -8,6 +8,14 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/7e20d9a28607778d6738/maintainability)](https://codeclimate.com/github/aletheia/nsp-cdk/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/7e20d9a28607778d6738/test_coverage)](https://codeclimate.com/github/aletheia/nsp-cdk/test_coverage)
 
+## Reason for this project
+AWS Cloud Development Kit is definitely a game changer because makes easy programming cloud infrastructure in your preferred language.
+Nonetheless, this framework is a starting point for complex constructs that can encapsulate deeper logic, providing developers with libraries to use in their projects.
+
+This project aims building a set of high order constructs that can ease building application services, using serverless technologies.
+
+
+
 ## Getting Started
 
 To get started with this library, first import NPM package
