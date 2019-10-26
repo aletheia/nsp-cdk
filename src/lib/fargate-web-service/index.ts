@@ -7,6 +7,7 @@ import {
   ImageSourceType
 } from "../fargate";
 
+/** Application properties **/
 export interface ApplicationProps {
   name?: string;
   dockerImage: ContainerImage | string;
